@@ -1,0 +1,22 @@
+{
+  "name": "blob-uri",
+  "repo": "virtru/blob-uri",
+  "description": "Blob Uri Utils",
+  "version": "0.0.1",
+  "dependencies": {
+    "virtru-components/underscore": "*",
+    "virtru-components/q": "*",
+    "virtru/binary.js": "*"
+  },
+  "development": {
+    "virtru-components/mocha-promises-kit": "*",
+    "virtru-components/chai": "*"
+  },
+  "scripts": [
+    "index.js",
+    "blob-uri.js"
+  ],
+  "testScripts": [
+    "tests/blob-uri-test.js"
+  ]
+}
